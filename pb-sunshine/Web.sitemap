@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="#" title="pb-sunshine"  description="pb-sunshine">
+        <siteMapNode url="~/Default.aspx" title="Home" description="Home" />
+        <siteMapNode url="~/Gastenboek.aspx" title="Gastenboek"  description="Gastenboek van Partyband Sunshine" />
+        <siteMapNode url="~/Agenda.aspx" title="Agenda"  description="De agenda van Partyband Sunshine" roles="Bandleden" />
+        <siteMapNode url="~/Contact.aspx" title="Contact"  description="Neem contact op met Partyband Sunshine" roles="*" />
+        <siteMapNode url="~/AudioVideo.aspx" title="Audio/Video"  description="Audio en Videofragmenten van Partyband Sunshine" />
+        <siteMapNode url="~/Fotos.aspx" title="Foto's"  description="bekijk foto's van partyband Sunshine" />
+        <siteMapNode url="~/Bandleden.aspx" title="Bandleden"  description="De bandleden van Partyband Sunshine" />
+        <siteMapNode url="~/Links.aspx" title="Links"  description="Links" />
+        <siteMapNode url="~/Logout.aspx" title="Uitloggen"  description="Uitloggen" roles="Bandleden" />
+    </siteMapNode>
+</siteMap>

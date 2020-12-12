@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SunshineDatabase">
+  <DataContextMoniker Name="/SunshineDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e9bf036d-09bb-4661-9cc5-d85dd364d7d6" absoluteBounds="3, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SunshineDatabaseDataContext/bandleden" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cd8a077d-9efd-4bfa-a178-e74e5d6e36bd" absoluteBounds="3.0149999999999997, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="929b8e4e-a2e7-468f-b920-af7744c2c8d1" absoluteBounds="2.875, 3.625, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SunshineDatabaseDataContext/contact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="355ceea1-ceb9-42d8-95fb-5cbc6f531ebd" absoluteBounds="2.89, 4.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94088be2-e2c2-4061-ab1c-a4e41c991dda" absoluteBounds="5.75, 3.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SunshineDatabaseDataContext/gastenboek" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7c37adb-3a5e-4e1b-9bd4-a7d63f7238ac" absoluteBounds="5.765, 4.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b65e18ff-8fad-47f4-a89e-af882b5e01c2" absoluteBounds="5.5, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SunshineDatabaseDataContext/foto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0de17755-525a-41a7-afb3-9686981fca75" absoluteBounds="5.515, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2575f105-fd95-45e9-a76f-e15cc71337f7" absoluteBounds="8, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SunshineDatabaseDataContext/fotoalbum" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d8d9a90e-0d05-4476-9cfc-b79f0bc3d2b9" absoluteBounds="8.015, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8764fa87-a915-4816-a904-fc384535b5a0" absoluteBounds="0.5, 0.625, 2, 2.5401025390625">
+      <DataClassMoniker Name="/SunshineDatabaseDataContext/agenda" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6eab7eee-5fd7-4c46-a138-fd0516d40037" absoluteBounds="0.51500000000000012, 1.085, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

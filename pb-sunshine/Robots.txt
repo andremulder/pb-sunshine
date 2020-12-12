@@ -1,0 +1,7 @@
+﻿User-Agent: *
+Disallow: 
+Disallow: /Agenda.aspx
+Disallow: /AgendaEdit.aspx
+Disallow: /AgendaAdd.aspx
+Disallow: /Beheer/Default.aspx
+Disallow: /Logout.aspx

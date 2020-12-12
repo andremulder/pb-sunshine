@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB_9B89D4_sunshine" Class="SunshineDatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SQL5012.Smarterasp.net;Initial Catalog=DB_9B89D4_sunshine;User ID=DB_9B89D4_sunshine_admin" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DB_9B89D4_sunshineConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.bandleden" Member="bandledens">
+    <Type Name="bandleden">
+      <Column Name="biografie" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="foto" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.contact" Member="contacts">
+    <Type Name="contact">
+      <Column Name="naam" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="telefoon" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="onderwerp" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="bericht" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ip" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="host" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.gastenboek" Member="gastenboeks">
+    <Type Name="gastenboek">
+      <Column Name="naam" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="woonplaats" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="website" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="bericht" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="datum" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ip" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="host" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="browser" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.fotos" Member="fotos">
+    <Type Name="foto">
+      <Column Name="album_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="bestandsnaam" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="bekeken" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="host" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.fotoalbum" Member="fotoalbums">
+    <Type Name="fotoalbum">
+      <Column Name="naam" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="datum" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="fotomap" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="album_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="soort" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.agenda" Member="agendas">
+    <Type Name="agenda">
+      <Column Name="datum" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="adres" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="omschrijving" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="openbaar" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="van" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="tot" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="googleAgendaSynchId" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="agendatype" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

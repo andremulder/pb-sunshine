@@ -1,0 +1,281 @@
+﻿body {
+    height:100%;
+    background-color:#303338;
+}
+
+/* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        #NavigationMenu a.static {
+        }
+        p.text-muted.footer_text {
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+        #agendaTable {
+            font-size:x-small;
+        }
+        .AgendaEditButton {
+            width:10px;
+        }
+        .AgendaDeleteButton {
+            height:10px;
+        }
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        #NavigationMenu a.static {
+            width:84px;
+        }
+        p.text-muted.footer_text {
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+        #agendaTable {
+            font-size:small;
+        }
+        .AgendaEditButton {
+            width:12px;
+        }
+        .AgendaDeleteButton {
+            height:12px;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        #NavigationMenu a.static {
+            width:100px;
+        }
+        p.text-muted.footer_text {
+            padding-left: 33%;
+            padding-top: 5px;
+        }
+        #agendaTable {
+            font-size:medium;
+        }
+        .AgendaEditButton {
+            width:15px;
+        }
+        .AgendaDeleteButton {
+            height:15px;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        #NavigationMenu a.static {
+            width:130px;
+        }
+        p.text-muted.footer_text {
+            padding-left: 33%;
+            padding-top: 5px;
+        }
+        #agendaTable {
+            font-size:medium;
+        }
+        .AgendaEditButton {
+            width:20px;
+        }
+        .AgendaDeleteButton {
+            height:20px;
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        #NavigationMenu a.static {
+            width:150px;
+        }
+        p.text-muted.footer_text {
+            padding-left: 33%;
+            padding-top: 5px;
+        }
+        #agendaTable {
+            font-size:medium;
+        }
+        .AgendaEditButton {
+            width:20px;
+        }
+        .AgendaDeleteButton {
+            height:20px;
+        }
+    }
+
+.mainnav.navbar {
+    margin-bottom:0px;
+    border-radius:0px;
+}
+
+nav.mainnav.navbar.navbar-default {    
+    background: #1F1B1A;
+    border: 1px solid #2D2D4C;
+}
+
+.mainnav ul.nav.navbar-nav > li > a {
+    color:#FFC7C7;
+}
+
+.mainnav ul.nav.navbar-nav > li > a:hover {
+    color:#FF0100;
+}
+
+.mainnav #navbar a.static.selected {
+    color:#FF0201; 
+}
+
+.nofloat {
+    float:none !important ;
+}
+
+div.home_content {
+    
+}
+
+.gastenboek_content {
+    
+}
+
+.home_header {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+}
+
+div.gastenboek_header {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+    color:#337ab7;
+}
+
+.gastenboek_nieuwbericht_header {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:12px;
+    font-size:medium;
+    color:#337ab7;
+}
+
+.container hr {
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+.GastenboekRijHeader {
+    background-color:aliceblue;
+    margin-top:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+
+.GastenboekRijEven {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.GastenboekRijOdd {
+    background-color:aliceblue;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.ContactHeader {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+    color:#337ab7;  
+}
+
+.Contact_TextBox300 {
+    max-width:300px;
+}
+
+.Contact_TextBoxHidden {
+    display:none;
+}
+
+
+.audiovideo_header {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+    color:#337ab7;  
+}
+
+.foto_header {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+    color:#337ab7;  
+}
+
+.album_header {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+    color:#337ab7;  
+}
+.bandleden_header {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+    color:#337ab7;  
+}
+
+.links_header {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+    color:#337ab7;  
+}
+
+.linkcategorie {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+    color:#337ab7;  
+
+}
+
+.agenda_header {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+    color:#337ab7; 
+    text-align:center;     
+}
+
+.Agenda_TextBox400 {
+    max-width:400px;
+}
+
+.Agenda_Dropdown200 {
+    max-width:200px;
+}
+
+
+
+
+a[href^="tel:"]:before {
+    content: "\260E";
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.row.black {
+    background-color:black;
+}
+
+.row.white {
+    background-color:white;
+}
+
+.row.black {
+    background-color:black;
+}
