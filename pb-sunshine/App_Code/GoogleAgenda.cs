@@ -38,7 +38,7 @@ public class GoogleAgenda
         {
             calendarId = "arbpt32ml6olgf4o14bj8sk29o@group.calendar.google.com";
         }
-        if (calendarname == "Vrijhouden")
+        if (calendarName == "Vrijhouden")
         {
             calendarId = "18it3aj9m55nii9qsh78v2ucko@group.calendar.google.com";
         }
